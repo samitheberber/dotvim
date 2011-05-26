@@ -7,3 +7,9 @@
 [submodule "bundle/closetag"]
 	path = bundle/closetag
 	url = git://github.com/vim-scripts/closetag.vim.git
+[submodule "bundle/ruby"]
+	path = bundle/ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/colors-solarized"]
+	path = bundle/colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
