@@ -31,3 +31,6 @@
 [submodule "bundle/pastie"]
 	path = bundle/pastie
 	url = git://github.com/tpope/vim-pastie.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git://github.com/tpope/vim-markdown.git
