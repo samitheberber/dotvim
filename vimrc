@@ -21,3 +21,9 @@ set list
 set listchars=tab:▸\ ,trail:-,nbsp:%
 set nohlsearch
 set incsearch
+
+autocmd BufWritePre * :call <SID>StripWhite()
+fun! <SID>StripWhite()
+    %s/[ \t]\+$//ge
+    %s!^\( \+\)\t!\=StrRepeat("\t", 1 + strlen(submatch(1)) / 8)!ge
+endfun
