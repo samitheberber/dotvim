@@ -1,6 +1,6 @@
 set expandtab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 filetype off
 
@@ -18,7 +18,7 @@ set number
 set cursorline
 set title
 set list
-set listchars=tab:▸\ ,trail:-,nbsp:%
+set listchars=tab:>-,trail:-,nbsp:%
 set nohlsearch
 set incsearch
 
