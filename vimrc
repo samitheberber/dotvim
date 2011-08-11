@@ -21,6 +21,7 @@ set list
 set listchars=tab:>-,trail:-,nbsp:%
 set nohlsearch
 set incsearch
+set history=100
 
 autocmd BufWritePre * :call <SID>StripWhite()
 fun! <SID>StripWhite()
