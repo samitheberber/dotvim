@@ -28,3 +28,5 @@ fun! <SID>StripWhite()
     %s/[ \t]\+$//ge
     %s!^\( \+\)\t!\=StrRepeat("\t", 1 + strlen(submatch(1)) / 8)!ge
 endfun
+
+inoremap <lt>/ </<C-X><C-O>
