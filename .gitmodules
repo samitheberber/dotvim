@@ -43,3 +43,9 @@
 [submodule "bundle/clojure"]
 	path = bundle/clojure
 	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/less"]
+	path = bundle/less
+	url = git://github.com/groenewege/vim-less.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
