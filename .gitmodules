@@ -58,3 +58,24 @@
 [submodule "bundle/yesod-templates"]
 	path = bundle/yesod-templates
 	url = git://github.com/pbrisbin/html-template-syntax.git
+[submodule "bundle/haskellmode"]
+	path = bundle/haskellmode
+	url = git://github.com/lukerandall/haskellmode-vim.git
+[submodule "bundle/hoogle"]
+	path = bundle/hoogle
+	url = git://github.com/Twinside/vim-hoogle.git
+[submodule "bundle/haskellConceal"]
+	path = bundle/haskellConceal
+	url = git://github.com/Twinside/vim-haskellConceal.git
+[submodule "bundle/haskellFold"]
+	path = bundle/haskellFold
+	url = git://github.com/Twinside/vim-haskellFold.git
+[submodule "bundle/neco-ghc"]
+	path = bundle/neco-ghc
+	url = git://github.com/ujihisa/neco-ghc.git
+[submodule "bundle/ghcmod"]
+	path = bundle/ghcmod
+	url = git://github.com/eagletmt/ghcmod-vim.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = git://github.com/Shougo/vimproc.vim.git

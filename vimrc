@@ -6,7 +6,7 @@ filetype off
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
-call pathogen#runtime_append_all_bundles()
+call pathogen#incubate()
 call pathogen#helptags()
 
 filetype plugin indent on
@@ -37,3 +37,7 @@ autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_s
 highlight def link rubyRspec Function
 
 let g:tex_flavor='latex'
+
+" Haskell stuff
+let g:haddock_browser="/usr/bin/firefox"
+au BufEnter *.hs compiler ghc
